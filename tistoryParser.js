@@ -3,8 +3,6 @@ import Parser from "rss-parser";
 
 let text = `# Hi there 👋
 
-## 이런 환경에 익숙해요✍🏼
-
 ## Language
 
 <p>
@@ -13,7 +11,7 @@ let text = `# Hi there 👋
 </p>
 
 ## 📕 Latest Blog Posts
-
+[![Readme Update](https://github.com/fullth/fullth/actions/workflows/main.yml/badge.svg)](https://github.com/fullth/fullth/actions/workflows/main.yml)
 `;
 
 // rss-parser 생성
