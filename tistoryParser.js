@@ -11,7 +11,7 @@ let text = `# Hi there 👋
 </p>
 
 ## 📕 Latest Blog Posts
-[![Readme Update](https://github.com/fullth/fullth/actions/workflows/main.yml/badge.svg)](https://github.com/fullth/fullth/actions/workflows/main.yml)
+[![Readme Update](https://github.com/fullth/fullth/actions/workflows/main.yml/badge.svg)](https://github.com/fullth/fullth/actions/workflows/main.yml)</br>
 `;
 
 // rss-parser 생성
