@@ -1,5 +1,5 @@
 git diff --quiet HEAD README.md
-if [ $? -ne 0 ]; then
+if [ $? -eq 0 ]; then
   echo "README has not changed. Skipping update."
   exit 0
 else
