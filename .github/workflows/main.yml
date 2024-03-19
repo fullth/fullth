@@ -17,8 +17,10 @@ jobs:
       - name: UPDATE README.md
         run: |
           npm start
+          echo "npm start 스크립트 실행 완료"
           git diff --quiet HEAD README.md
-          if [ $? -ne 0 ]; then
+          echo $
+          if [ $? -eq 0 ]; then
             echo "README has not changed. Skipping update."
             exit 0
           else
