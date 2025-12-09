@@ -1,10 +1,7 @@
 import { writeFileSync } from 'node:fs';
 import Parser from "rss-parser";
 
-let text = `## 👋 Hi there 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fullth&layout=compact&hide=r,jupyter%20notebook,c%23&exclude_repo=roharui.github.io)](https://github.com/anuraghazra/github-readme-stats)
-
-## 📕 Latest Blog Posts
+let text = `## 📕 Latest Blog Posts
 [![Readme Update](https://github.com/fullth/fullth/actions/workflows/main.yml/badge.svg)](https://github.com/fullth/fullth/actions/workflows/main.yml)</br>
 `;
 
